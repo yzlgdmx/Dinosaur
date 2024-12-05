@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3492597790215944837
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dao06 Variant Variant
+  m_Shader: {fileID: -6465566751694194690, guid: 78526858de53c3544852d07965912b31, type: 3}
+  m_Parent: {fileID: 2100000, guid: 535b3ad8350425b4288df26f9e8a46b4, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _DISS_A
+  - _MAIN02_B
+  - _MAIN_OFFEST_C
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Diss_Tex:
+        m_Texture: {fileID: 2800000, guid: 24bb97f4753829c429f777cf625785e3, type: 3}
+        m_Scale: {x: 0.4, y: 1}
+        m_Offset: {x: -0.6, y: -0.52}
+    - _Main_Tex:
+        m_Texture: {fileID: 2800000, guid: 1f44dc08fb967694da1bd1c1d56458b3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Blend: 2
+    - _DstBlend: 1
+    - _Main_Int: 2
+    m_Colors:
+    - _Main_Col: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
+  m_BuildTextureStacks: []
